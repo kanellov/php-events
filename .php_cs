@@ -1,10 +1,9 @@
 <?php
 /**
- * peempip
+ * kanellov/php-events
  * 
- * @link https://bitbucket.org/the-programmers/peempip for the canonical source repository
- * @copyright Copyright (c) 2004 - 2016 Panhellenic Association of Professional 
- *            Translators Graduates of the Ionian University (http://www.peempip.gr/)
+ * @link https://github.com/kanellov/php-events for the canonical source repository
+ * @copyright Copyright (c) 2004 - 2016 Vassilis Kanellopoulos (http://kanellov.com)
  * @license GNU GPLv3 http://www.gnu.org/licenses/gpl-3.0-standalone.html
  */
 

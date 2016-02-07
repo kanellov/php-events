@@ -1,10 +1,14 @@
 # php-events
 
+|master|develop|
+|------|-------|
+|[![Build Status](https://travis-ci.org/kanellov/php-events.svg?branch=master)](https://travis-ci.org/kanellov/php-events)|[![Build Status](https://travis-ci.org/kanellov/php-events.svg?branch=develop)](https://travis-ci.org/kanellov/php-events)|
+
 A simple events manager function
 
 # Requirements
 
-- php >= 5.5
+- php >= 5.3
 
 # Installation
 

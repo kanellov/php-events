@@ -11,13 +11,10 @@
         }
     ],
     "require": {
-        "php": ">=5.5"
+        "php": ">=5.3"
     },
     "require-dev": {
-        "fabpot/php-cs-fixer": "1.*",
-        "phpunit/PHPUnit": "4.*",
-        "satooshi/php-coveralls": "dev-master",
-        "phpunit/phpcov": "2.*"
+        "phpunit/PHPUnit": "3.*"
     },
     "autoload": {
         "files": [
