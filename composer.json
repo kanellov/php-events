@@ -1,0 +1,27 @@
+{
+    "name": "kanellov/php-events",
+    "type": "library",
+    "description": "A simple events manager",
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "Vassilis Kanellopoulos",
+            "email": "contact@kanellov.com",
+            "homepage": "http://kanellov.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "1.*",
+        "phpunit/PHPUnit": "4.*",
+        "satooshi/php-coveralls": "dev-master",
+        "phpunit/phpcov": "2.*"
+    },
+    "autoload": {
+        "files": [
+            "events.php"
+        ]
+    }
+}

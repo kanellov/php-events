@@ -1,0 +1,4 @@
+.git* export-ignore
+events.test.php export-ignore
+phpunit_xml.dist export-ignore
+.php_cs export-ignore
