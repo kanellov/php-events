@@ -33,7 +33,7 @@ function events($action)
         );
         krsort($eventListeners, SORT_NUMERIC);
 
-        array_unshift($args, function () use (&$stopped) {
+        array_push($args, function () use (&$stopped) {
             $stopped = true;
         });
         foreach ($eventListeners as $listenersByPriority) {

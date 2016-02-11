@@ -54,7 +54,7 @@ class EventsTest extends \PHPUnit_Framework_TestCase
 
     public function testTriggersPassArgumentsInCallables()
     {
-        \Knlv\events('on', 'event', function ($stop, $var) {
+        \Knlv\events('on', 'event', function ($var) {
             return $var;
         });
         $result = \Knlv\events('trigger', 'event', 'value');
@@ -64,13 +64,13 @@ class EventsTest extends \PHPUnit_Framework_TestCase
         ), $result);
     }
 
-    public function testFirstArgumentInCallableIsStopClosure()
+    public function testLastArgumentInCallableIsStopClosure()
     {
         $isCallable = false;
-        \Knlv\events('on', 'event', function ($stop) use (&$isCallable) {
+        \Knlv\events('on', 'event', function ($var, $stop) use (&$isCallable) {
             $isCallable = is_callable($stop);
         });
-        \Knlv\events('trigger', 'event');
+        \Knlv\events('trigger', 'event', 'value');
         $this->assertTrue($isCallable);
     }
 
